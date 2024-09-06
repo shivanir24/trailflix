@@ -3,11 +3,13 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "nodemon server.js",
-      "build": "react-scripts build"
-    },
+
+      "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+      },
     "author": "",
     "license": "ISC",
     "dependencies": {
