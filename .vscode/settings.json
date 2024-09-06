@@ -1,0 +1,15 @@
+{
+    "python.formatting.provider": "yapf",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "netflix.sql",
+            "database": "netflix",
+            "username": "postgres",
+            "password": ""
+        }
+    ]
+}
